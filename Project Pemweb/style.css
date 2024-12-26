@@ -1,0 +1,24 @@
+.banner {
+  background: url("istockphoto-1411029939-612x612.jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+.btn-lebih-lanjut {
+    margin-top: 150px; /* Atur jarak atas sesuai kebutuhan */
+    display: inline-block; /* Pastikan tombol ditampilkan sebagai blok inline */
+    padding: 10px 20px; /* Atur padding tombol */
+    font-size: 16px; /* Ukuran font */
+    background-color: #dc3545; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Tanpa border */
+    border-radius: 5px; /* Sudut melengkung */
+    cursor: pointer; /* Ubah kursor saat hover */
+    transition: background-color 0.3s; /* Efek transisi saat hover */
+}
+
+.btn-lebih-lanjut:hover {
+    background-color: #c82333; /* Warna latar belakang saat hover */
+}
